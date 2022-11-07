@@ -1,0 +1,57 @@
+/****************************TAG SELECTORS*******************/
+body {
+    background: hsl(30, 38%, 92%);
+   
+}
+
+h1 {
+    font-family: 'Fraunces', serif;
+    font-size: 20;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif; 
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14;
+    font-weight: 700;
+}
+
+
+
+
+/****************************CLASS SELECTORS****************/
+.attribution {
+    text-align: center;
+    
+}
+.image-box {
+  background: white;
+  text-align: center;
+  margin: 15% auto;
+  height: 500px;
+  width: 600px;
+  border-radius: 5%;
+  
+}
+
+.image-product {
+    height: 500px;
+    width: 320px;
+    border-bottom-left-radius: 5%;
+    border-top-left-radius: 5%;
+    position: relative;
+    right: 23.5%;
+}
+
+.text-box {
+    max-width: 300px;
+    max-height: 500px;
+    position: relative;
+    left: 55%;
+    bottom: 100%;
+    text-align: left;
+}
