@@ -30,7 +30,7 @@ p {
 }
 .image-box {
   background: white;
-  text-align: center;
+  text-align: left;
   margin: 15% auto;
   height: 500px;
   width: 600px;
@@ -44,14 +44,57 @@ p {
     border-bottom-left-radius: 5%;
     border-top-left-radius: 5%;
     position: relative;
-    right: 23.5%;
+    right: 5%;
+    float: left;
+    text-align: left;
 }
 
-.text-box {
-    max-width: 300px;
-    max-height: 500px;
-    position: relative;
-    left: 55%;
-    bottom: 100%;
+.perfume {
     text-align: left;
+    margin-right: 30%;
+    position: relative;
+    top: 5%;
+    right: 2%;
+}
+
+.item-name {
+    position: relative;
+    top: 5%;
+    right: 2%;
+}
+
+.body-text {
+    position: relative;
+    top: 5%;
+    right: 2%;
+}
+
+.new-price {
+    font-family: 'Fraunces', serif;
+    font-size: 32px;
+    position: relative;
+    top: 5%;
+    color: hsl(158, 36%, 37%);
+    right: 2%;
+}
+
+.old-price {
+    position: relative;
+    bottom: 7%;
+    left: 25%;
+    text-decoration: line-through;
+}
+
+.cart {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Fraunces', serif;
+    font-size: 26px;
+    font-weight: 1000;
+    height: 75px;
+    width: 250px;
+    position: relative;
+ 
 }
